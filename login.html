@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+ font-family: Calibri, Helvetica, sans-serif;
+ background-color:lightblue;
+ 
+}
+.container {
+ padding: 50px;
+ background-color:rgb(229, 88, 111);
+
+}
+
+input[type=text], input[type=password], textarea {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+ background-color: orange;
+ outline: none;
+}
+div {
+ padding: 10px 0;
+ }
+hr {
+ border: 1px solid #f1f1f1;
+ margin-bottom: 25px;
+
+}
+.registerbtn {
+ background-color: #4CAF50;
+ color: white;
+ padding: 16px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+}
+.registerbtn:hover {
+ opacity: 1;
+}
+</style>
+</head>
+<body>
+<form>
+ <div class="container">
+ <center> <h1> BOOKING REQUEST FORM</h1> </center>
+ <center> <h1> CAR SERVICE BOOKING FORM</h1> </center>
+ <center><img src="auto.jpg" alt="fig1" style="width:250px;height:300px;"></center>
+ 
+<h4><p><b>About the service</b></p></h4>
+<p> At Auto Garage, we're dedicated to providing top-notch automotive services that keep your vehicle running smoothly. 
+    With a passion for cars and a commitment to excellence, we're your go-to destination for all your automotive needs.</p>
+
+ <hr>
+ <label> Firstname </label>
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />
+<label> Middlename: </label>
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />
+<label> Lastname: </label>
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />
+<div>
+<label>
+Cartype :
+</label>
+
+<select>
+<option value="others">others</option>
+<option value="Swift">Swift</option>
+<option value="Toyota Fortuner">Toyota Fortuner</option>
+<option value="Tata Nexon">Tata Nexon</option>
+<option value="Hyundai i20">Hyundai i20</option>
+<option value="Audi A3">Audi A3</option>
+</select>
+</div>
+<div>
+<label>
+Type of Service Required:
+</label>
+
+<select>
+<option value="others">others</option>
+<option value="waterwash">waterwash</option>
+<option value="Suspension">Suspension</option>
+<option value="Battery Test">Battery Test</option>
+<option value="Brakes">Brakes</option>
+<option value="full car service">full car service</option>
+<option value="Clutch">Clutch</option>
+<option value="Engine Inspection">Engine Inspection</option>
+</select>
+</div>
+
+
+<div>
+<label>
+Gender :
+</label><br>
+<input type="radio" value="Male" name="gender" checked > Male
+<input type="radio" value="Female" name="gender"> Female
+<input type="radio" value="Other" name="gender"> Other
+
+</div>
+<label>
+Phone :
+</label>
+<input type="text" name="country code" placeholder="Country Code" value="+91" size="2"/>
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>
+Current Address :
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
+</textarea>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+ <label for="psw"><b>Password</b></label>
+ <input type="password" placeholder="Enter Password" name="psw" required>
+ <label for="psw-repeat"><b>Re-type Password</b></label>
+ <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+ <button type="submit" class="registerbtn">Register</button>
+<h1>Delivery Timing</h1>
+<p>Car will be delivered within one week</p>
+<h1>Sechedule for Delivery</h1>
+<table>
+<table border="2">
+<colgroup>
+<col span="2" bgcolor="white">
+</colgroup>
+<thead>
+<tr>
+<th>Type of Service </th>
+<th>Delivery Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>others</td>
+<td>According to part </td>
+</tr>
+<tr>
+<td>waterwash</td>
+<td>2 Days</td>
+</tr>
+<tr>
+<td>Suspension</td>
+<td>2 Days</td>
+</tr>
+<tr>
+<td>Battery Test</td>
+<td>1 day</td>
+</tr>
+<tr>
+<td>Brakes</td>
+<td>1 Day</td>
+</tr>
+<tr>
+<td>full car service</td>
+<td>7 Days</td>
+</tr>
+<tr>
+<td>Clutch</td>
+<td>2 Days</td>
+</tr>
+<tr>
+<td>Engine Inspection</td>
+<td>2 Days</td>
+</tr>
+</tbody>
+</table>
+<br>
+</form>
+</body>
+</html>
