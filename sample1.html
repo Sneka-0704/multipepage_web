@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Car Collection</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ list-style: none;
+ text-decoration: none;
+ }
+ header {
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(61, 61, 61);
+ padding: 10px 20px;
+ }
+ header .logo h1 {
+ font-size: 20px;
+ font-weight: 700;
+ color: white;
+ }
+ nav ul {
+ display: flex;
+ padding: 20px;
+ }
+ ul li {
+ padding: 6px;
+ margin: 4px;
+ }
+ ul li a {
+ color: rgb(106, 106, 106);
+ background-color: black;
+ padding: 10px;
+ border-radius: 8px;
+ }
+ ul li a:hover {
+ color: black;
+ background-color: beige;
+ }
+ .container {
+ width: 100%;
+ margin: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ }
+ .div {
+ width: 32%;
+ padding: 20px;
+ text-align: center;
+ background-color: rgb(108, 57, 57);
+ margin-bottom: 20px;
+ border-radius: 8px;
+ }
+ .div img {
+ width: 300px;
+ height: 200px;
+ border: 1px solid gray;
+ }
+ .div p {
+ color: rgb(248, 248, 248);
+ font-size: 20px;
+ font-weight: 400;
+ margin-bottom: 10px;
+ }
+ .div button {
+ padding: 8px 20px;
+ background-color: rgb(0, 172, 192);
+ color: rgb(0, 11, 2);
+ border-radius: 3px;
+ border: none;
+ cursor: pointer;
+ }
+ .back {
+ background-color: rgb(37, 37, 37);
+ padding: 10px;
+ text-align: center;
+ }
+ .back img {
+ width: 100%;
+ height: 100vh;
+ opacity: 0.8;
+ position: relative;
+ }
+ .back p {
+ font-size: 35px;
+ color: white;
+ position: relative;
+ margin-top: -50px;
+ }
+ body {
+ background-color: #222121;
+ }
+ </style>
+</head>
+<body>
+ <header>
+
+ <div class="logo">
+ <img src="auto.jpg" alt="" height="120px" width="120px">
+ </div>
+ <nav>
+ <ul>
+ <li><a href="https://www.wikihow.com/Choose-the-Right-Car-for-You">Help</a></li>
+ <li><a href="https://www.carwale.com/new/search/">Tools</a></li>
+ <li><a href="https://www.siam.in/cpage.aspx?mpgid=16&pgid1=18&pgidtrail=85">Taxes</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section>
+ <div class="back">
+ <img src="../backk.jpg" alt="">
+ <p>WELCOME TO OUR CAR COLLECTION</p>
+ </div>
+ <div class="container">
+ <div class="div">
+ <img src="../audi.jpg" alt="image">
+ <p>Audi</p>
+ <li><a href="audi.html">view details</a></li>
+ </div>
+ <div class="div">
+ <img src="../audiq7.jpg" alt="image">
+ <p>Audi Q7</p>
+ <li><a href="audiq7.html">view details</a></li>
+ </div>
+ <div class="div">
+ <img src="../Ferarif8.jpg" alt="image">
+ <p>Ferrari F8</p>
+ <li><a href="faerrari F8.html">view details</a></li>
+ </div>
+ </div>
+ </section>
+</body>
+</html>
